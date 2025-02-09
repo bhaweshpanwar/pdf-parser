@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF to JSON Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="page-heading">Upload Your PDF for JSON Conversion</h1>
+
+        <input type="file" id="fileInput" accept="application/pdf">
+        <button id="uploadBtn">Upload</button>
+
+        <p id="statusMessage"></p>
+
+        <div id="downloadSection" style="display: none;">
+            <p>File processed successfully! Click below to download:</p>
+            <a id="downloadBtn" class="download-link">Download JSON</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Project by Bhawesh Panwar | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
