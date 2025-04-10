@@ -1,4 +1,3 @@
-````
 # 📄 PDF Parser to JSON Converter
 
 A lightweight web app that parses PDF files and converts the content into JSON format using **Node.js** and **pdf-parse**. Users can upload a PDF, and the output JSON is automatically generated and made available for download.
@@ -38,7 +37,7 @@ pdf-parser/
 ├── index.js             # Main server logic
 ├── package.json
 └── .gitignore
-````
+```
 
 ---
 
@@ -120,7 +119,5 @@ Maintained by [Bhawesh Panwar](https://github.com/bhaweshpanwar) — feel free t
 - [ ] Use NLP to detect section breaks
 
 ```
-
-
 
 ```
